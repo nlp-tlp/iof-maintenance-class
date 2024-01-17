@@ -1,10 +1,10 @@
 ## IOF Maintenance Ontology Class
 
-In this class we provide an overview of the IOF-aligned Maintenance Reference ontology and demonstrate it's use of two application use cases (maintenance activities).
+In this class we provide an overview of the IOF-aligned Maintenance Reference ontology and demonstrate its application on a use case based on the maintenance activity application ontology.
 
 ### Part 1: Overview of the Maintenance Reference Ontology
 
-We will use power point slides to talk through the Maintenance Reference Ontology.
+We will use power point slides to talk through the Maintenance Reference Ontology. These are available at powerpoint\IOF-maintenance-workshop-2024.pptx
 
 In addition it will be helpful for participants to access and look at the resources available on line.
 
@@ -13,7 +13,9 @@ Specifically
 1. The IOF website hosting the IOF CORE, IOF supply chain and IOF maintenance ontologies
 
 IOF GitHub: https://spec.industrialontologies.org/iof/
+
 IOF Viewer: https://spec.industrialontologies.org/iof/ontology/
+
 Direct link to the maintenance reference ontology: https://spec.industrialontologies.org/iof/ontology/maintenance/MaintenanceReferenceOntology/
 
 2. The Ontocommons website and its metadata on ontologies as well as useful visualisations and search features on IOF-aligned maintenance ontologies
@@ -26,8 +28,6 @@ Maintenance activity ontology: https://industryportal.enit.fr/ontologies/MNT-ACT
 Maintenance procedure documentation ontology: https://industryportal.enit.fr/ontologies/OMPD-CMTO?p=summary
 
 Note the FAIR scores available for each, a licence, a hyperlink to the source, and a figure.
-
-We will start with materials in the Powerpoint - powerpoint\IOF-maintenance-workshop-2024.pptx
 
 ### Part 2: Use case - Maintenance activity ontology
 
