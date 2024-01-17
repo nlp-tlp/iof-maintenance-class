@@ -6,6 +6,8 @@ In this class we provide an overview of the IOF-aligned Maintenance Reference on
 
 Add link to file (MH to make)
 
+Add link to Jupyter notebook https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
+
 Framing of the use cases
 
 We will use the maintenance activity ontology and show how it can be used for monitoring the reliability of a pump. This could be e.g a lubrication or cooling water pump on some piece of manufacturing equipment used in producing the engine or for a jet engine oil system.
