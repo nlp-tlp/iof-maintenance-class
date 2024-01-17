@@ -4,7 +4,7 @@ In this class we provide an overview of the IOF-aligned Maintenance Reference on
 
 ### Part 1: Overview of the Maintenance Reference Ontology
 
-We will use power point slides to talk through the Maintenance Reference Ontology. These are available at [here](powerpoint\IOF-maintenance-workshop-2024.pptx)
+We will use power point slides to talk through the Maintenance Reference Ontology. These are available at [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
 
 In addition it will be helpful for participants to access and look at the resources available on line.
 
