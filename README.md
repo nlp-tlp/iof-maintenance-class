@@ -4,11 +4,9 @@ In this class we provide an overview of the IOF-aligned Maintenance Reference on
 
 ### Part 1: Overview of the Maintenance Reference Ontology
 
-We will use power point slides to talk through the Maintenance Reference Ontology. These are available at [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
+We will use power point slides to talk through the Maintenance Reference Ontology. These are available to download as the raw file [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
 
-In addition it will be helpful for participants to access and look at the resources available on line.
-
-Specifically
+In addition it will be helpful for participants to access and look at the ontology resources used in this tutorial. These are available on line as follows.
 
 1. The IOF website hosting the IOF CORE, IOF supply chain and IOF maintenance ontologies
 
@@ -54,3 +52,9 @@ The selection of the maintenance activity terms is informed by the ISO 14224 and
 A link to the GitHub file for the paper is
 
 https://github.com/uwasystemhealth/Paper_Archive_Maintenance_Activity
+
+### Contact details
+
+Professor Melinda Hodkiewicz  melinda.hodkiewicz@uwa.edu.au
+
+
