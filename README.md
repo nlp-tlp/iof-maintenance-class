@@ -69,19 +69,37 @@ For the 33% of records where a verb was not provided in the unstructured text, t
 
 ![Alt text](images\mwo-description.svg)
 
-First we will look at the paper online then we will examine code for importing the data and building the ontology in a Google Colab.
-
-## Links
-
-A copy of the paper is available
+First we will look at the paper online. A copy of the paper is available
 
 https://content.iospress.com/articles/semantic-web/sw233299?resultNumber=0&totalResults=10&start=0&q=hodkiewicz&resultsPageSize=10&rows=10
 
-A link to the Google CoLab file is here https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
+Following this we will examine code for importing the data and building the ontology in a Google Colab https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
 
 A link to the GitHub file for the paper is
 
 https://github.com/uwasystemhealth/Paper_Archive_Maintenance_Activity
+
+### Part 3: Information extraction from unstructured text and the role of ontologies in this process
+
+This section will provide a high level overview of a pipeline based on a set of open source tools to enable companies to clean and annotate their data with entities and relations, use the annotated text to fine tune a large language model and query the resulting knowledge graph. All the tools have been developed by the nlp-tlp group at the University of Western Australia.
+
+Links to the tools are at
+
+**Quickgraph annotation tool** for entity and relation annotation at https://quickgraph.tech/
+
+**Mudlark PyPi** - Python package for automatically cleaning the technical language present across many CSV-based datasets https://pypi.org/project/mudlark/
+
+**Puggle PyPi** - Python package for cConverting the output of entity typing models and annotation tools into a Neo4J graph https://pypi.org/project/puggle/
+
+**Redcoat annotation tool** for entity annotation at https://github.com/nlp-tlp/redcoat
+
+**LexiClean** an annotation tool for rapid multi-task lexical normalisation https://github.com/nlp-tlp/lexiclean
+
+**CleanGraph** - Human-in-the-loop Knowledge Graph Refinement and Completion https://github.com/nlp-tlp/CleanGraph
+
+Other tools are available at https://nlp-tlp.org/github, and there are some demos available on line at https://nlp-tlp.org/software-demos
+
+For the rest of this workshop we will return to the powerpoint slides [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
 
 ### Contact details
 
