@@ -35,19 +35,53 @@ We will use the maintenance activity ontology and show how it can be used for mo
 
 The use case is an instanciation of material described in a Semantic Web Journal paper `An ontology for maintenance activities and its application to data quality'.
 
-A link to the Google CoLab file is here https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
+## Use of the ontology for data quality control
+
+We use natural language processing to identify seven core maintenance activity terms and their synonyms from 800,000 MWOs (maintenance work orders).
+
+These seven terms are captured in the image below
+
+![Alt text](images\maint-activities-summary.svg "Overview of maintenance activity terms")
+
+We provide elucidations for these seven terms. An example is
+
+REPLACE
+
+SME description: Replacement of an item by a new or refurbished item of the same type and make.
+
+Semi-formal description: A BFO: Process in which one item is removed and another item with the same required function is installed in its place.
+
+Elucidation: p is a replace activity =
+
+Def. p is a process and there exist material artifacts a and b (a $\not=$ b) such that a and b participate in p at some time. The following is also true:
+
+- a has a function f and b has a function f2.
+
+- f and f2 are of type F
+
+- a is a continuant part of a system s at time t and b is not.
+
+- b is a continuant part of a system s at time t2 and a is not.
+
+- p occurs at some time tp
+
+- t precedes t2, tp finishes t and tp starts t2
+
+The end-to-end NLP-ontology pipeline identifies data quality issues with 55% of the MWO records for a centrifugal pump over 8 years.
+
+For the 33% of records where a verb was not provided in the unstructured text, the ontology can infer a relevant activity class.
+
+![Alt text](images\mwo-description.svg "Example of MWO classes")
+
+First we will look at the paper online then we will examine code for importing the data and building the ontology in a Google Colab.
+
+## Links
 
 A copy of the paper is available
 
-https://content.iospress.com/download/semantic-web/sw233299?id=semantic-web%2Fsw233299
+https://content.iospress.com/articles/semantic-web/sw233299?resultNumber=0&totalResults=10&start=0&q=hodkiewicz&resultsPageSize=10&rows=10
 
-The abstract for the paper is below:
-
-Maintenance of assets is a multi-million dollar cost each year for asset intensive organisations in the defence, manufacturing, resource and infrastructure sectors. These costs are tracked though maintenance work order (MWO) records. MWO records contain structured data for dates, costs, and asset identification and unstructured text describing the work required, for example `replace leaking pump'. Our focus in this paper is on data quality for maintenance activity terms in MWO records (e.g. replace, repair, adjust and inspect).
-
-We present two contributions in this paper. First, we propose a reference ontology for maintenance activity terms. We use natural language processing to identify seven core maintenance activity terms and their synonyms from 800,000 MWOs. We provide elucidations for these seven terms. Second, we demonstrate use of the reference ontology in an application-level ontology using an industrial use case. The end-to-end NLP-ontology pipeline identifies data quality issues with 55% of the MWO records for a centrifugal pump over 8 years. For the 33% of records where a verb was not provided in the unstructured text, the ontology can infer a relevant activity class.
-
-The selection of the maintenance activity terms is informed by the ISO 14224 and ISO 15926-4 standards and conforms to ISO/IEC 21838-2 Basic Formal Ontology (BFO). The reference and application ontologies presented here provide an example for how industrial organisations can augment their maintenance work management processes with ontological workflows to improve data quality.
+A link to the Google CoLab file is here https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
 
 A link to the GitHub file for the paper is
 
@@ -55,6 +89,4 @@ https://github.com/uwasystemhealth/Paper_Archive_Maintenance_Activity
 
 ### Contact details
 
-Professor Melinda Hodkiewicz  melinda.hodkiewicz@uwa.edu.au
-
-
+Professor Melinda Hodkiewicz melinda.hodkiewicz@uwa.edu.au
