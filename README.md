@@ -41,6 +41,10 @@ We use natural language processing to identify seven core maintenance activity t
 
 These seven terms are captured in the image below
 
+![Alt text](images/maint-activities-summary.svg)
+
+![Alt text](images/maint-activities-summary.png)
+
 ![Alt text](images\maint-activities-summary.svg "Overview of maintenance activity terms")
 
 We provide elucidations for these seven terms. An example is
