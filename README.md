@@ -23,7 +23,6 @@ Direct link to the maintenance reference ontology: https://spec.industrialontolo
 2. The Ontocommons website and its metadata on ontologies as well as useful visualisations and search features on IOF-aligned maintenance ontologies
 
 Maintenance reference ontology: https://spec.industrialontologies.org/iof/ontology/maintenance/MaintenanceReferenceOntology/
-Maintenance
 
 Maintenance activity ontology: https://industryportal.enit.fr/ontologies/MNT-ACT?p=summary
 
@@ -31,7 +30,7 @@ Maintenance procedure documentation ontology: https://industryportal.enit.fr/ont
 
 Note the FAIR scores available for each, a licence, a hyperlink to the source, and a figure.
 
-### Part 2: Use case - Maintenance activity ontology
+## Part 2: Use case - Maintenance activity ontology
 
 Framing of the use case
 
@@ -39,7 +38,7 @@ We will use the maintenance activity ontology and show how it can be used for mo
 
 The use case is an instanciation of material described in a Semantic Web Journal paper `An ontology for maintenance activities and its application to data quality'.
 
-## Use of the ontology for data quality control
+### Use of the ontology for data quality control
 
 We use natural language processing to identify seven core maintenance activity terms and their synonyms from 800,000 MWOs (maintenance work orders).
 
@@ -77,13 +76,13 @@ First we will look at the paper online. A copy of the paper is available
 
 https://content.iospress.com/articles/semantic-web/sw233299?resultNumber=0&totalResults=10&start=0&q=hodkiewicz&resultsPageSize=10&rows=10
 
-Following this we will examine code for importing the data and building the ontology in a Google Colab https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
+Following this we will **examine code for importing the data and building the ontology in a Google Colab** https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
 
 A link to the GitHub file for the paper is
 
 https://github.com/uwasystemhealth/Paper_Archive_Maintenance_Activity
 
-### Part 3: Information extraction from unstructured text and the role of ontologies in this process
+## Part 3: Information extraction from unstructured text and the role of ontologies in this process
 
 This section will provide a high level overview of a pipeline based on a set of open source tools to enable companies to clean and annotate their data with entities and relations, use the annotated text to fine tune a large language model and query the resulting knowledge graph. All the tools have been developed by the nlp-tlp group at the University of Western Australia.
 
@@ -105,6 +104,6 @@ Other tools are available at https://nlp-tlp.org/github, and there are some demo
 
 For the rest of this workshop we will return to the powerpoint slides [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
 
-### Contact details
+## Contact details
 
 Professor Melinda Hodkiewicz melinda.hodkiewicz@uwa.edu.au
