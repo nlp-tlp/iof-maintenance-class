@@ -2,17 +2,15 @@
 
 In this class we provide an overview of the IOF-aligned Maintenance Reference ontology and demonstrate its application on a use case based on the maintenance activity application ontology.
 
-There are two main resources for this class. Introductions, framing and the slides for Part 3 are in powerpoint slides.  These are available to download as the raw file [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
+There are two main resources for this class. Introductions, framing and the slides for Part 3 are in powerpoint slides. These are available to download as the raw file [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
 
+## Part 1: Overview of the Maintenance Reference Ontology
 
-
-### Part 1: Overview of the Maintenance Reference Ontology
-
-## IOF-maint ontology resources
+### IOF-maint ontology resources
 
 It will be helpful for participants to access and look at the ontology resources used in this tutorial. These are available on line as follows.
 
-1. The IOF website hosting the IOF CORE, IOF supply chain and IOF maintenance ontologies
+1. The **IOF website** hosting the IOF CORE, IOF supply chain and IOF maintenance ontologies
 
 IOF GitHub: https://spec.industrialontologies.org/iof/
 
@@ -20,7 +18,7 @@ IOF Viewer: https://spec.industrialontologies.org/iof/ontology/
 
 Direct link to the maintenance reference ontology: https://spec.industrialontologies.org/iof/ontology/maintenance/MaintenanceReferenceOntology/
 
-2. The Ontocommons website and its metadata on ontologies as well as useful visualisations and search features on IOF-aligned maintenance ontologies
+2. The **Ontocommons website** and its metadata on ontologies as well as useful visualisations and search features on IOF-aligned maintenance ontologies
 
 Maintenance reference ontology: https://spec.industrialontologies.org/iof/ontology/maintenance/MaintenanceReferenceOntology/
 
@@ -29,6 +27,38 @@ Maintenance activity ontology: https://industryportal.enit.fr/ontologies/MNT-ACT
 Maintenance procedure documentation ontology: https://industryportal.enit.fr/ontologies/OMPD-CMTO?p=summary
 
 Note the FAIR scores available for each, a licence, a hyperlink to the source, and a figure.
+
+#### Where does iof-maint 'fit' in IOF?
+
+![Alt text](images/iof-ontology-modules.png)
+
+Iof-maint is based on five use cases documented in peer-reviewed publications. See list in references at the end of this notebook.
+
+Each use case describes an application ontology and is supported by industrial data produced in the maintenance management process.
+
+20 classes and 2 object properties used in multiple use cases (or considered central to maintenance management) are 'lifted' to the iof-maint reference ontology to be used as a common resource.
+
+![Alt text](images/list_of_terms.png)
+
+### ido-maint: Maintenance reference ontology overview
+
+The iof-maint ontology can be visualised below
+
+![Alt text](images/iof-maint_ontology.png)
+
+Note that two terms crucial to maintenance, namely `MaintainableMaterialItem' and 'MaintainableMaterialItemRole' are not shown here as they have been 'lifted' into IOF Core.
+
+Summary list of terms
+
+![Alt text](images/iof_list-of_terms.png)
+
+### Example of documentation in iof-maint
+
+All terms and their documentation are at https://spec.industrialontologies.org/iof/ontology/maintenance/MaintenanceReferenceOntology/
+
+An example of documentation for a single term is below.
+
+![Alt text](images/term_documentation.png)
 
 ## Part 2: Use case - Maintenance activity ontology
 
@@ -72,7 +102,7 @@ For the 33% of records where a verb was not provided in the unstructured text, t
 
 ![Alt text](images\mwo-description.svg)
 
-First we will look at the paper online. A copy of the paper is available
+First we will **look at the paper online**. A copy of the paper is available
 
 https://content.iospress.com/articles/semantic-web/sw233299?resultNumber=0&totalResults=10&start=0&q=hodkiewicz&resultsPageSize=10&rows=10
 
@@ -107,3 +137,17 @@ For the rest of this workshop we will return to the powerpoint slides [here](pow
 ## Contact details
 
 Professor Melinda Hodkiewicz melinda.hodkiewicz@uwa.edu.au
+
+## References
+
+#### Application ontologies used in the development of iof-maint
+
+An ontology for maintenance activities and its application to data quality https://content.iospress.com/articles/semantic-web/sw233299
+
+An ontology for maintenance procedure documentation https://content.iospress.com/articles/applied-ontology/ao230279
+
+An ontology for failure modes and effects analysis: Hodkiewicz et.al. 2021. Computers in Industry (not free from this site but available on ResearchGate and from the author)
+https://www.sciencedirect.com/science/article/pii/S0166361521001032?casa_token=BxLrXpqn9fAAAAAA:MwnZkxjRsYP8ylX7uCfsMtqsWhOEaYTruYRUIiyJi4OggSELRMvZFpDXuVqfQKdZ33pSrxl0GA
+
+On the notion of maintenance state for industrial assets: Woods et.al. 2021. FOMI@JOWO 2021.
+Towards a reference ontology for maintenance work management https://ceur-ws.org/Vol-2900/WS5Paper2.pdf
