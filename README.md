@@ -2,7 +2,7 @@
 
 In this class we provide an overview of the IOF-aligned Maintenance Reference ontology and demonstrate its application on a use case based on the maintenance activity application ontology.
 
-### Part 1: Overview of the Maintenance Reference Ontology
+## Part 1: Overview of the Maintenance Reference Ontology
 
 We will use power point slides to talk through the Maintenance Reference Ontology. These are available to download as the raw file [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
 
@@ -26,7 +26,7 @@ Maintenance procedure documentation ontology: https://industryportal.enit.fr/ont
 
 Note the FAIR scores available for each, a licence, a hyperlink to the source, and a figure.
 
-### Part 2: Use case - Maintenance activity ontology
+## Part 2: Use case - Maintenance activity ontology
 
 Framing of the use case
 
@@ -34,7 +34,7 @@ We will use the maintenance activity ontology and show how it can be used for mo
 
 The use case is an instanciation of material described in a Semantic Web Journal paper `An ontology for maintenance activities and its application to data quality'.
 
-## Use of the ontology for data quality control
+### Use of the ontology for data quality control
 
 We use natural language processing to identify seven core maintenance activity terms and their synonyms from 800,000 MWOs (maintenance work orders).
 
@@ -78,7 +78,7 @@ A link to the GitHub file for the paper is
 
 https://github.com/uwasystemhealth/Paper_Archive_Maintenance_Activity
 
-### Part 3: Information extraction from unstructured text and the role of ontologies in this process
+## Part 3: Information extraction from unstructured text and the role of ontologies in this process
 
 This section will provide a high level overview of a pipeline based on a set of open source tools to enable companies to clean and annotate their data with entities and relations, use the annotated text to fine tune a large language model and query the resulting knowledge graph. All the tools have been developed by the nlp-tlp group at the University of Western Australia.
 
@@ -100,6 +100,6 @@ Other tools are available at https://nlp-tlp.org/github, and there are some demo
 
 For the rest of this workshop we will return to the powerpoint slides [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
 
-### Contact details
+## Contact details
 
 Professor Melinda Hodkiewicz melinda.hodkiewicz@uwa.edu.au
