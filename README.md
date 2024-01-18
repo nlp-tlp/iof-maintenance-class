@@ -43,21 +43,13 @@ These seven terms are captured in the image below
 
 ![Alt text](images/maint-activities-summary.svg)
 
-![Alt text](images/maint-activities-summary.png)
-
-![Alt text](images\maint-activities-summary.svg "Overview of maintenance activity terms")
-
-We provide elucidations for these seven terms. An example is
-
-REPLACE
+We provide elucidations for these seven terms. An example is for the term 'replace' is below:
 
 SME description: Replacement of an item by a new or refurbished item of the same type and make.
 
 Semi-formal description: A BFO: Process in which one item is removed and another item with the same required function is installed in its place.
 
-Elucidation: p is a replace activity =
-
-Def. p is a process and there exist material artifacts a and b (a $\not=$ b) such that a and b participate in p at some time. The following is also true:
+Elucidation: p is a replace activity = Def. p is a process and there exist material artifacts a and b (a $\not=$ b) such that a and b participate in p at some time. The following is also true:
 
 - a has a function f and b has a function f2.
 
@@ -75,7 +67,7 @@ The end-to-end NLP-ontology pipeline identifies data quality issues with 55% of 
 
 For the 33% of records where a verb was not provided in the unstructured text, the ontology can infer a relevant activity class.
 
-![Alt text](images\mwo-description.svg "Example of MWO classes")
+![Alt text](images\mwo-description.svg)
 
 First we will look at the paper online then we will examine code for importing the data and building the ontology in a Google Colab.
 
