@@ -2,11 +2,15 @@
 
 In this class we provide an overview of the IOF-aligned Maintenance Reference ontology and demonstrate its application on a use case based on the maintenance activity application ontology.
 
+There are two main resources for this class. Introductions, framing and the slides for Part 3 are in powerpoint slides.  These are available to download as the raw file [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
+
+
+
 ### Part 1: Overview of the Maintenance Reference Ontology
 
-We will use power point slides to talk through the Maintenance Reference Ontology. These are available to download as the raw file [here](powerpoint/IOF-maintenance-workshop-2024.pptx)
+## IOF-maint ontology resources
 
-In addition it will be helpful for participants to access and look at the ontology resources used in this tutorial. These are available on line as follows.
+It will be helpful for participants to access and look at the ontology resources used in this tutorial. These are available on line as follows.
 
 1. The IOF website hosting the IOF CORE, IOF supply chain and IOF maintenance ontologies
 
