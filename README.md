@@ -19,7 +19,6 @@ Direct link to the maintenance reference ontology: https://spec.industrialontolo
 2. The Ontocommons website and its metadata on ontologies as well as useful visualisations and search features on IOF-aligned maintenance ontologies
 
 Maintenance reference ontology: https://spec.industrialontologies.org/iof/ontology/maintenance/MaintenanceReferenceOntology/
-Maintenance
 
 Maintenance activity ontology: https://industryportal.enit.fr/ontologies/MNT-ACT?p=summary
 
