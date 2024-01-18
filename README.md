@@ -72,7 +72,7 @@ First we will look at the paper online. A copy of the paper is available
 
 https://content.iospress.com/articles/semantic-web/sw233299?resultNumber=0&totalResults=10&start=0&q=hodkiewicz&resultsPageSize=10&rows=10
 
-Following this we will examine code for importing the data and building the ontology in a Google Colab https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
+Following this we will **examine code for importing the data and building the ontology in a Google Colab** https://colab.research.google.com/drive/1gVgtC-JcXikNPzpp8p1wIGstF0EEnwBl?usp=sharing
 
 A link to the GitHub file for the paper is
 
